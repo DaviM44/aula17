@@ -1,0 +1,46 @@
+h1{
+	text-align: center;
+	font-family: verdana;
+}
+body{
+	background-image: url(https://images.pexels.com/photos/53594/blue-clouds-day-fluffy-53594.jpeg?cs=srgb&dl=pexels-pixabay-53594.jpg&fm=jpg);
+}
+
+#caixa{
+	backdrop-filter: blur(5px); width: 40.5%;  margin-left: auto;
+margin-right: auto; border: 2px solid black; border-radius: 5px; text-align: center; padding-top: 20px;padding-bottom: 20px;
+font-family: calibri; font-size: 15px;
+}
+
+/* CSS */
+.button-43 {
+  background-image: linear-gradient(-180deg, #37AEE2 0%, #1E96C8 100%);
+  border-radius: .5rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  font-size: 16px;
+  justify-content: center;
+  text-decoration: none;
+  width: 50%;
+  border: 0;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-43:hover {
+  background-image: linear-gradient(-180deg, #1D95C9 0%, #17759C 100%);
+}
+
+@media (min-width: 768px) {
+  .button-43 {
+    padding: 1rem 2rem;
+  }
+}
+
+#resultado{
+	font-size:20px;
+	font-weight: bold;
+
+}
